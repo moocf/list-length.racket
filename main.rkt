@@ -1,12 +1,12 @@
 #lang racket
 
-;; list-length: List -> Int
-;; usage: (list-length list) = the length of list
-(define list-length
+;; list.length: List -> Int
+;; usage: (list.length list) = the length of list
+(define list.length
   (lambda (l)
     (if (null? l)
         0
-        (+ 1 (list-length (cdr l))))))
+        (+ 1 (list.length (cdr l))))))
 
 
 
@@ -16,7 +16,7 @@
 ; (define id expr):
 ; define global identifier
 
-; (lambda (args...) body) 
+; (lambda (args...) body)
 ; define a function
 
 ; (null? list)

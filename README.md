@@ -5,5 +5,7 @@ Use the recursive definition of list to find its length (see EOPL).
 
 See [main.rkt] for code.
 
+![](https://ga-beacon.deno.dev/G-G1E8HNDZYY:v51jklKGTLmC3LAZ4rJbIQ/github.com/moocf/list-length.racket)
+
 [Principles of Programming Languages]: https://github.com/iiithf/principles-of-programming-languages
 [main.rkt]: main.rkt
